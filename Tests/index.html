@@ -1,0 +1,2141 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>محاسبة بالمعلقة | التمارين</title>
+        <link rel="shortcut icon" href="Imgs/logo/Logo-Title.png">
+        <!-- Font Cairo -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap"
+            rel="stylesheet"
+        />
+        <!-- End Font Cairo -->
+        <!-- Font Tajawal -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
+            rel="stylesheet"
+        />
+        <!-- Font Awsome -->
+        <link rel="stylesheet" href="CSS/all.min.css" />
+        <!-- Style File -->
+        ءذ
+        <link rel="stylesheet" href="CSS/css.css" />
+        <!-- Normaliz File -->
+        <link rel="stylesheet" href="CSS/normaliz.css" />
+    </head>
+    <body>
+        <!-- Header -->
+        <header class="header" id="header">
+            <!-- Naviction -->
+            <nav id="navbar">
+                <ul class="nav-fr">
+                    <li>
+                        <a href="../Home/index.html" class="logo-name"
+                            >محاسبة بالمعلقة</a
+                        >
+                    </li>
+                    <li>
+                        <a href="../Home/index.html" class="logo-img"
+                            ><img src="Imgs/logo/logo.png" alt="Not found"
+                        /></a>
+                    </li>
+                </ul>
+                <ul class="nav-la" id="menu">
+                    <li><a href="../Home/index.html">الصفحة الرئيسية</a></li>
+                    <li class="btn-menu">
+                        <a href="#home">▾ الاقسام</a>
+                        <ul class="menu">
+                            <a href="../Terms/index.html"><li>النظري</li></a>
+                            <a href="../Exampls/index.html"><li>الأمثلة</li></a>
+                            <a href="../Tests/index.html"><li>التمارين</li></a>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="../TeamStone/index.html" target="_blank"
+                            >من نحن</a
+                        >
+                    </li>
+                    <li><a href="#footer">تواصل معنا</a></li>
+                    <i
+                    class="fac fa-solid fa-circle-xmark"
+                    onclick="closemenu()"
+                ></i>
+                </ul>
+                <i class="fac fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <!-- EndNaviction -->
+        </header>
+        <!-- End Header -->
+        <!-- Home -->
+        <section class="title-page">
+            <div class="big-title">
+                <h1>قسم التمارين</h1>
+            </div>
+        </section>
+        <section id="home1" class="continer">
+            <div class="aside">
+                <h5>قسم التمارين</h5>
+                <ul class="menu-side">
+                    <li><a href="#home1">قائمةالدخل</a></li>
+                    <li><a href="#home2">قائمة التغيرات في حقوق الملكية</a></li>
+                    <li>
+                        <a href="#home3">قائمة المركز المالي (الميزانية)</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="page" ng-app="">
+                <hr />
+                <div class="term">
+                    <p>
+                        <strong
+                            >اختبر معرفتك وقدراتك في المحاسبة من خلال التمارين
+                            العملية.</strong
+                        >
+                    </p>
+                </div>
+                <hr />
+                <div class="term">
+                    <h2 class="margin-bottom margin-top">
+                        تمارين علي قائمه الدخل:
+                    </h2>
+                    <h3>(تمرين 1) علي قائمه الدخل:</h3>
+                    <p>
+                        <strong
+                            >فيما يلي أرصدة الإيرادات والمصروفات لمنشأة عصام عن
+                            سنة 2012 :</strong
+                        >
+                    </p>
+                    <p>
+                        1.الإيرادات 900.000ج ، والمسموحات 15% من الإيرادات.
+                        <br />
+                        2.المصروفات (أجور ومرتبات 50.000ج – إيجارات 20.000ج – نور
+                        ومياه 5.000ج – إعلانات 20.000ج – تليفون وفاكس 5.000ج –
+                        مصروفات إدارية وعمومية 100.000ج – فوائد مدينة 10.000ج).
+                        <br />
+                        3.معدل ضريبة الدخل 20%.
+                    </p>
+                    <p>
+                        <strong
+                            >والمطلوب : إعداد قائمة الدخل لمنشأة عصام عن سنة
+                            2012.</strong
+                        >
+                    </p>
+                    <p><strong class="text-center">الحل</strong></p>
+                    <table>
+                        <tbody class="test">
+                            <tr>
+                                <td class="inp-txt td1 center border-bottom">
+                                    كلي
+                                </td>
+                                <td class="inp-txt td2 center border-bottom">
+                                    جزئي
+                                </td>
+                                <td class="inp-txt td3 center border-bottom">
+                                    بيان
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="center">
+                                    <input
+                                        class="inp-num border-orange"
+                                        type="number"
+                                        ng-model="n1"
+                                    />
+                                </td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        value="إجمالي الإيرادات"
+                                        readonly
+                                        class="inp-txt"
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="center border-bottom">
+                                    <input
+                                        class="inp-num border-orange"
+                                        type="number"
+                                        ng-model="n2"
+                                        value="{{ ( (n1-0) * ( (s1-0) / 100 ) ) }}"
+                                    />
+                                </td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        class="inp-txt width75"
+                                        value="– المسحوبات"
+                                        readonly
+                                    /><input
+                                        class="inp-num border-orange width25"
+                                        type="text"
+                                        ng-model="s1"
+                                        placeholder="النسبة"
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input
+                                        class="inp-num"
+                                        type="number"
+                                        value="{{ (n1-0) - ( (n1-0) * ( (s1-0) / 100 ) ) }}"
+                                        ng-model="r1"
+                                        id="num1"
+                                        readonly
+                                    />
+                                </td>
+                                <td class="center"></td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        value="صافي الإيرادات"
+                                        class="inp-txt"
+                                        readonly
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="center"></td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        value="– المصروفات"
+                                        class="inp-txt"
+                                        readonly
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="center">
+                                    <input
+                                        class="inp-num border-orange"
+                                        ng-model="n3"
+                                        type="number"
+                                    />
+                                </td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        value="أجور ومرتبات"
+                                        readonly
+                                        class="inp-txt"
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="center">
+                                    <input
+                                        class="inp-num border-orange"
+                                        ng-model="n4"
+                                        type="number"
+                                    />
+                                </td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        value="إيجارات"
+                                        readonly
+                                        class="inp-txt"
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="center">
+                                    <input
+                                        class="inp-num border-orange"
+                                        ng-model="n5"
+                                        type="number"
+                                    />
+                                </td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        value="نور ومياه"
+                                        class="inp-txt"
+                                        readonly
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="center">
+                                    <input
+                                        class="inp-num border-orange"
+                                        ng-model="n6"
+                                        type="number"
+                                    />
+                                </td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        value="إعلانات"
+                                        class="inp-txt"
+                                        readonly
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="center">
+                                    <input
+                                        class="inp-num border-orange"
+                                        ng-model="n7"
+                                        type="number"
+                                    />
+                                </td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        value="تليفون وفاكس"
+                                        readonly
+                                        class="inp-txt"
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="center">
+                                    <input
+                                        class="inp-num border-orange"
+                                        ng-model="n8"
+                                        type="number"
+                                    />
+                                </td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        value="مصروفات عمومية وإدارية"
+                                        class="inp-txt"
+                                        readonly
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="center border-bottom">
+                                    <input
+                                        class="inp-num border-orange"
+                                        ng-model="n9"
+                                        type="number"
+                                    />
+                                </td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        value="فوائد مدينة"
+                                        class="inp-txt"
+                                        readonly
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="border-bottom">
+                                    <input
+                                        class="inp-num"
+                                        value="{{ (n3-0) + (n4-0) + (n5-0) + (n6-0) + (n7-0) + (n8-0) + (n9-0) }}"
+                                        ng-model="n10"
+                                        type="number"
+                                        id="num2"
+                                        readonly
+                                    />
+                                </td>
+                                <td class="center"></td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        value="إجمالي المصاريف"
+                                        class="inp-txt"
+                                        readonly
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input
+                                        class="inp-num"
+                                        readonly
+                                        type="number"
+                                        ng-model="n11"
+                                        id="tot1"
+                                        value="{{ ((n1-0) - ( (n1-0) * ( (s1-0) / 100 ) ) ) - ( (n3-0) + (n4-0) + (n5-0) + (n6-0) + (n7-0) + (n8-0) + (n9-0) ) }}"
+                                        oninput="sumNumbers()"
+                                    />
+                                </td>
+                                <td class="center"></td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        value="صافي الربح قبل الضريبة"
+                                        class="inp-txt"
+                                        readonly
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="border-bottom">
+                                    <input
+                                        ng-model="n12"
+                                        class="inp-num border-orange"
+                                        type="number"
+                                        value="{{ ( ( (n1-0) - ( (n1-0) * ( (s1-0) / 100 ) ) ) - ( (n3-0) + (n4-0) + (n5-0) + (n6-0) + (n7-0) + (n8-0) + (n9-0) ) ) * ( (s2-0) / 100 ) }}"
+                                    />
+                                </td>
+                                <td class="center"></td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        class="inp-txt width75"
+                                        value="– ضريبة الدخل"
+                                        readonly
+                                    /><input
+                                        class="inp-num border-orange width25"
+                                        type="text"
+                                        ng-model="s2"
+                                        placeholder="النسبة"
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input
+                                        ng-model="n13"
+                                        class="inp-num"
+                                        readonly
+                                        type="number"
+                                        id="total"
+                                        oninput="checkNumber()"
+                                        value="{{ ( ( (n1-0) - ( (n1-0) * ( (s1-0) / 100 ) ) ) - ( (n3-0) + (n4-0) + (n5-0) + (n6-0) + (n7-0) + (n8-0) + (n9-0) ) ) - ( ( (n1-0) - ( (n1-0) * ( (s1-0) / 100 ) ) ) - ( (n3-0) + (n4-0) + (n5-0) + (n6-0) + (n7-0) + (n8-0) + (n9-0) ) ) * ( (s2-0) / 100 ) }}"
+                                    />
+                                </td>
+                                <td class="center"></td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        value="صافي الربح العام"
+                                        readonly
+                                        class="inp-txt"
+                                    />
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <h3>تنبية !</h3>
+                    <p><strong>صافي الربح العام الصحيح: 444.000</strong></p>
+                </div>
+                <hr />
+                <div class="term">
+                    <h3>(تمرين 2) علي قائمه الدخل:</h3>
+                    <p>
+                        <strong
+                            >فيما يلي أرصدة الإيرادات والمصروفات لمنشأة محمد عن
+                            سنة 2012 :</strong
+                        >
+                    </p>
+                    <p>
+                        1.الإيرادات 1.500.000ج ، والمسموحات 10% من الإيرادات.
+                        <br />
+                        2.المصروفات (أجور ومرتبات 75.000ج – إيجارات 25.000ج – نور
+                        ومياه 10.000ج – إعلانات 30.000ج – تليفون وفاكس 15.000ج –
+                        مصروفات إدارية وعمومية 150.000ج – فوائد مدينة 15.000ج).
+                        <br />
+                        3.معدل ضريبة الدخل 10%.
+                    </p>
+                    <p>
+                        <strong
+                            >والمطلوب : إعداد قائمة الدخل لمنشأة محمد عن سنة
+                            2012.</strong
+                        >
+                    </p>
+                    <p><strong class="text-center">الحل</strong></p>
+                    <table>
+                        <tbody class="test">
+                            <tr>
+                                <td class="inp-txt td1 center border-bottom">
+                                    كلي
+                                </td>
+                                <td class="inp-txt td2 center border-bottom">
+                                    جزئي
+                                </td>
+                                <td class="inp-txt td3 center border-bottom">
+                                    بيان
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="center">
+                                    <input
+                                        class="inp-num border-orange"
+                                        type="number"
+                                        ng-model="n21"
+                                    />
+                                </td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        class="inp-txt border-orange"
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="center border-bottom">
+                                    <input
+                                        class="inp-num border-orange"
+                                        type="number"
+                                        ng-model="n22"
+                                        value="{{ (n21-0) * ( (s21-0) / 100 ) }}"
+                                    />
+                                </td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        class="inp-txt border-orange width75"
+                                    /><input
+                                        ng-model="s21"
+                                        class="inp-num border-orange width25"
+                                        type="text"
+                                        placeholder="النسبة"
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input
+                                        class="inp-num"
+                                        type="number"
+                                        value="{{ (n21-0) - (n21-0) * ( (s21-0) / 100 ) }}"
+                                        ng-model="r11"
+                                        readonly
+                                    />
+                                </td>
+                                <td class="center"></td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        class="inp-txt border-orange"
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="center"></td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        value="– المصروفات"
+                                        class="inp-txt"
+                                        readonly
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="center">
+                                    <input
+                                        class="inp-num border-orange"
+                                        ng-model="n23"
+                                        type="number"
+                                    />
+                                </td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        class="inp-txt border-orange"
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="center">
+                                    <input
+                                        class="inp-num border-orange"
+                                        ng-model="n24"
+                                        type="number"
+                                    />
+                                </td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        class="inp-txt border-orange"
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="center">
+                                    <input
+                                        class="inp-num border-orange"
+                                        ng-model="n25"
+                                        type="number"
+                                    />
+                                </td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        class="inp-txt border-orange"
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="center">
+                                    <input
+                                        class="inp-num border-orange"
+                                        ng-model="n26"
+                                        type="number"
+                                    />
+                                </td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        class="inp-txt border-orange"
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="center">
+                                    <input
+                                        class="inp-num border-orange"
+                                        ng-model="n27"
+                                        type="number"
+                                    />
+                                </td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        class="inp-txt border-orange"
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="center">
+                                    <input
+                                        class="inp-num border-orange"
+                                        ng-model="n28"
+                                        type="number"
+                                    />
+                                </td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        class="inp-txt border-orange"
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="center border-bottom">
+                                    <input
+                                        class="inp-num border-orange"
+                                        ng-model="n29"
+                                        type="number"
+                                    />
+                                </td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        class="inp-txt border-orange"
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="border-bottom">
+                                    <input
+                                        class="inp-num"
+                                        value="{{ (n23-0) + (n24-0) + (n25-0) + (n26-0) + (n27-0) + (n28-0) + (n29-0) }}"
+                                        ng-model="n30"
+                                        type="number"
+                                        readonly
+                                    />
+                                </td>
+                                <td class="center"></td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        class="inp-txt border-orange"
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input
+                                        class="inp-num"
+                                        readonly
+                                        type="number"
+                                        ng-model="n31"
+                                        id="tot1"
+                                        oninput="sumNumbers()"
+                                        value="{{ ((n21-0) - ( (n21-0) * ( (s21-0) / 100 ) ) ) - ( (n23-0) + (n24-0) + (n25-0) + (n26-0) + (n27-0) + (n28-0) + (n29-0) ) }}"
+                                    />
+                                </td>
+                                <td class="center"></td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        class="inp-txt border-orange"
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="border-bottom">
+                                    <input
+                                        ng-model="n32"
+                                        class="inp-num border-orange"
+                                        type="number"
+                                        value="{{ ( ( (n21-0) - ( (n21-0) * ( (s21-0) / 100 ) ) ) - ( (n23-0) + (n24-0) + (n25-0) + (n26-0) + (n27-0) + (n28-0) + (n29-0) ) ) / ( (s22-0) ) }}"
+                                    />
+                                </td>
+                                <td class="center"></td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        class="inp-txt border-orange width75"
+                                    /><input
+                                        class="inp-num border-orange width25"
+                                        type="number"
+                                        placeholder="النسبة"
+                                        ng-model="s22"
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input
+                                        ng-model="n33"
+                                        class="inp-num"
+                                        readonly
+                                        type="number"
+                                        id="total"
+                                        oninput="checkNumber()"
+                                        value="{{ ( ( (n21-0) - (n21-0) * ( (s21-0) / 100 ) ) - ( (n23-0) + (n24-0) + (n25-0) + (n26-0) + (n27-0) + (n28-0) + (n29-0) ) ) - ( ( (n21-0) - ( (n21-0) / (s21-0) ) ) - ( (n23-0) + (n24-0) + (n25-0) + (n26-0) + (n27-0) + (n28-0) + (n29-0) ) ) / ( (s22-0) ) }}"
+                                    />
+                                </td>
+                                <td class="center"></td>
+                                <td id="home2">
+                                    <input
+                                        type="text"
+                                        value="صافي الربح العام"
+                                        readonly
+                                        class="inp-txt"
+                                    />
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <h3>تنبية !</h3>
+                    <p><strong>صافي الربح العام الصحيح: 927.000</strong></p>
+                </div>
+                <hr />
+                <div class="term">
+                    <h2 class="margin-bottom margin-top">
+                        تمارين علي قائمة التغيرات في حقوق الملكية
+                    </h2>
+                    <h3>(تمرين 1) علي قائمة التغيرات في حقوق الملكية</h3>
+                    <p>
+                        في أول يناير 2011 بدأت محلات سيف محمد برأس مال 450.000ج ،
+                        وفي 2011/7/1 تم زيادة رأس المال بمبلغ 90.000ج نقدآ ، وفي
+                        2011/9/1 سحبت لاستعمالها الشخصي بضائع بمبلغ 5.000ج ، وفي
+                        2011/12/31 بلغت الأرباح عن العام 100.000ج.
+                    </p>
+                    <p>
+                        <strong
+                            >والمطلوب : إعداد قائمة التغير في حقوق
+                            الملكية.</strong
+                        >
+                    </p>
+                    <p><strong class="text-center">الحل</strong></p>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td class="inp-txt td1 center border-bottom">
+                                    كلي
+                                </td>
+                                <td class="inp-txt td2 center border-bottom">
+                                    جزئي
+                                </td>
+                                <td class="inp-txt td3 center border-bottom">
+                                    بيان
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input
+                                        class="inp-num border-orange"
+                                        type="number"
+                                        ng-model="n40"
+                                    />
+                                </td>
+                                <td class="center"></td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        value="حقوق الملكية في 2011/1/1"
+                                        class="inp-txt"
+                                        readonly
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="center"></td>
+                                <td class="underline">
+                                    <input
+                                        type="text"
+                                        readonly
+                                        value="يضاف إليها:"
+                                        class="inp-txt underline"
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="center">
+                                    <input
+                                        class="inp-num border-orange"
+                                        type="number"
+                                        ng-model="n41"
+                                    />
+                                </td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        value="الزيادة في رأس المال"
+                                        readonly
+                                        class="inp-txt"
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="center border-bottom">
+                                    <input
+                                        class="inp-num border-orange"
+                                        type="number"
+                                        ng-model="n42"
+                                    />
+                                </td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        value="صافي الربح العام"
+                                        readonly
+                                        class="inp-txt"
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="border-bottom">
+                                    <input
+                                        class="inp-num"
+                                        type="number"
+                                        value="{{ ((n41-0) + (n42-0)) }}"
+                                        ng-model="n43"
+                                        readonly
+                                    />
+                                </td>
+                                <td class="center"></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input
+                                        class="inp-num"
+                                        type="number"
+                                        ng-model="n44"
+                                        value="{{ ((n41-0) + (n42-0)) + ((n40)) }}"
+                                        readonly
+                                    />
+                                </td>
+                                <td class="center"></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="center"></td>
+                                <td class="underline">
+                                    <input
+                                        type="text"
+                                        readonly
+                                        value="يخصم منها:"
+                                        class="inp-txt underline"
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="center border-bottom">
+                                    <input
+                                        class="inp-num border-orange"
+                                        type="number"
+                                        ng-model="n46"
+                                    />
+                                </td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        value="المسحوبات"
+                                        class="inp-txt"
+                                        readonly
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="border-bottom">
+                                    <input
+                                        class="inp-num"
+                                        type="number"
+                                        ng-model="n47"
+                                        value="{{ (0 + (n46-0)) }}"
+                                        readonly
+                                    />
+                                </td>
+                                <td class="center"></td>
+                                <td></td>
+                            </tr>
+                            <tr class="top border-bottom">
+                                <td>
+                                    <input
+                                        class="inp-num"
+                                        type="number"
+                                        ng-model="n48"
+                                        value="{{ ((n41-0) + (n42-0)) + ((n40)) - (n46-0) }}"
+                                        readonly
+                                    />
+                                </td>
+                                <td class="center"></td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        value="حقوق الملكية في 2011/12/31"
+                                        readonly
+                                        class="inp-txt"
+                                    />
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <h3>تنبية !</h3>
+                    <p>
+                        <strong
+                            >حقوق الملكية في نهاية الفترة الصحيحة:
+                            635.000</strong
+                        >
+                    </p>
+                </div>
+                <hr />
+                <div class="term">
+                    <h3>(تمرين 2) علي قائمة التغيرات في حقوق الملكية</h3>
+                    <p>
+                        في أول يناير 2021 بدأت محلات رجب برأس مال 500.000ج ، وفي
+                        2021/7/1 تم زيادة رأس المال بمبلغ 200.000ج نقدآ ، وفي
+                        2021/9/1 سحبت لاستعمالها الشخصي بضائع بمبلغ 150.000ج ،
+                        وفي 2021/12/31 بلغت الأرباح عن العام 150.000ج..
+                    </p>
+                    <p>
+                        <strong
+                            >والمطلوب : إعداد قائمة التغير في حقوق
+                            الملكية.</strong
+                        >
+                    </p>
+                    <p><strong class="text-center">الحل</strong></p>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td class="inp-txt td1 center border-bottom">
+                                    كلي
+                                </td>
+                                <td class="inp-txt td2 center border-bottom">
+                                    جزئي
+                                </td>
+                                <td class="inp-txt td3 center border-bottom">
+                                    بيان
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input
+                                        class="inp-num border-orange"
+                                        type="number"
+                                        ng-model="n50"
+                                    />
+                                </td>
+                                <td class="center"></td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        class="inp-txt border-orange"
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="center"></td>
+                                <td class="underline">
+                                    <input
+                                        type="text"
+                                        class="inp-txt underline border-orange"
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="center">
+                                    <input
+                                        class="inp-num border-orange"
+                                        type="number"
+                                        ng-model="n51"
+                                    />
+                                </td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        class="inp-txt border-orange"
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="center border-bottom">
+                                    <input
+                                        class="inp-num border-orange"
+                                        type="number"
+                                        ng-model="n52"
+                                    />
+                                </td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        class="inp-txt border-orange"
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="border-bottom">
+                                    <input
+                                        class="inp-num"
+                                        type="number"
+                                        value="{{ ((n51-0) + (n52-0)) }}"
+                                        ng-model="n53"
+                                        readonly
+                                    />
+                                </td>
+                                <td class="center"></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input
+                                        class="inp-num"
+                                        type="number"
+                                        ng-model="n54"
+                                        value="{{ ((n51-0) + (n52-0)) + ((n50)) }}"
+                                        readonly
+                                    />
+                                </td>
+                                <td class="center"></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="center"></td>
+                                <td class="underline">
+                                    <input
+                                        type="text"
+                                        class="inp-txt border-orange underline"
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="center">
+                                    <input
+                                        class="inp-num border-orange"
+                                        type="number"
+                                        ng-model="n55"
+                                    />
+                                </td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        class="inp-txt border-orange"
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="border-bottom">
+                                    <input
+                                        class="inp-num"
+                                        type="number"
+                                        ng-model="n57"
+                                        value="{{ ((n55-0) + 0) }}"
+                                        readonly
+                                    />
+                                </td>
+                                <td class="center"></td>
+                                <td></td>
+                            </tr>
+                            <tr class="top border-bottom">
+                                <td>
+                                    <input
+                                        class="inp-num"
+                                        type="number"
+                                        ng-model="n58"
+                                        value="{{ ((n51-0) + (n52-0)) + ((n50)) - (n55-0) }}"
+                                        readonly
+                                    />
+                                </td>
+                                <td class="center"></td>
+                                <td id="home3">
+                                    <input
+                                        type="text"
+                                        class="inp-txt border-orange"
+                                    />
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <h3>تنبية !</h3>
+                    <p>
+                        <strong
+                            >حقوق الملكية في نهاية الفترة الصحيحة:
+                            700.000</strong
+                        >
+                    </p>
+                </div>
+                <hr />
+                <div class="term">
+                    <h2 class="margin-bottom">
+                        تمارين علي قائمة المركز المالي (الميزانية)
+                    </h2>
+                    <h3>(تمرين 1) علي قائمة قائمة المركز المالي (الميزانية)</h3>
+                    <p>
+                        <strong
+                            >فيما يلي بعض أرصدة ميزان المراجعة لمنشأة السعداوي
+                            في 2005/12/31</strong
+                        >
+                    </p>
+                    <p>
+                        (أراضي 200.000ج – مباني 80.000ج - سيارات 50.000ج – أثاث
+                        25.000ج – نقدية 30.000ج – مخزون بضاعة 50.000ج – عملاء
+                        50.000ج – أوراق قبض 30.000 – أوراق مالية 20.000ج – موردين
+                        50.000ج – أوراق دفع 50.000ج – قروض قصيرة الأجل 50.000ج –
+                        قروض طويلة الأجل 65.000ج – المسحوبات 10.000ج – صافي ربح
+                        العام 30.000ج – رأس المال 300.000ج.)
+                    </p>
+                    <p>
+                        <strong
+                            >والمطلوب : إعداد قائمة المركز المالي في
+                            2005/12/31.</strong
+                        >
+                    </p>
+                    <p><strong class="text-center">الحل</strong></p>
+                    <table class="width exam">
+                        <tbody class="final">
+                            <tr>
+                                <td class="inp-txt td1 center border-bottom">
+                                    كلي
+                                </td>
+                                <td class="inp-txt td2 center border-bottom">
+                                    جزئي
+                                </td>
+                                <td class="inp-txt td3 center border-bottom">
+                                    بيان
+                                </td>
+                                <td class="inp-txt td4 center border-bottom">
+                                    كلي
+                                </td>
+                                <td class="inp-txt td5 center border-bottom">
+                                    جزئي
+                                </td>
+                                <td class="inp-txt td6 center border-bottom">
+                                    بيان
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="center"></td>
+                                <td class="underline">
+                                    <input
+                                        type="text"
+                                        value="الأصول الثابتة"
+                                        readonly
+                                        class="inp-txt"
+                                    />
+                                </td>
+                                <td class="center"></td>
+                                <td class="center"></td>
+                                <td class="underline">
+                                    <input
+                                        type="text"
+                                        value="حقوق الملكية"
+                                        class="inp-txt"
+                                        readonly
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="center">
+                                    <input
+                                        class="inp-num border-orange"
+                                        type="number"
+                                        ng-model="n60"
+                                    />
+                                </td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        value="أراضي"
+                                        class="inp-txt"
+                                        readonly
+                                    />
+                                </td>
+                                <td class="center"></td>
+                                <td class="center">
+                                    <input
+                                        class="inp-num border-orange"
+                                        type="number"
+                                        ng-model="n61"
+                                    />
+                                </td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        value="رأس المال"
+                                        class="inp-txt"
+                                        readonly
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="center">
+                                    <input
+                                        class="inp-num border-orange"
+                                        type="number"
+                                        ng-model="n62"
+                                    />
+                                </td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        value="مباني"
+                                        readonly
+                                        class="inp-txt"
+                                    />
+                                </td>
+                                <td class="center"></td>
+                                <td class="center">
+                                    <input
+                                        class="inp-num border-orange"
+                                        type="number"
+                                        ng-model="n63"
+                                    />
+                                </td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        value="± صافي الربح"
+                                        readonly
+                                        class="inp-txt"
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="center">
+                                    <input
+                                        class="inp-num border-orange"
+                                        type="number"
+                                        ng-model="n64"
+                                    />
+                                </td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        value="سيارات"
+                                        readonly
+                                        class="inp-txt"
+                                    />
+                                </td>
+                                <td class="center"></td>
+                                <td class="center border-bottom">
+                                    <input
+                                        class="inp-num border-orange"
+                                        type="number"
+                                        ng-model="n65"
+                                    />
+                                </td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        value="– المسحوبات"
+                                        readonly
+                                        class="inp-txt"
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="center border-bottom">
+                                    <input
+                                        class="inp-num border-orange"
+                                        type="number"
+                                        ng-model="n66"
+                                    />
+                                </td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        value="أثاث"
+                                        readonly
+                                        class="inp-txt"
+                                    />
+                                </td>
+                                <td class="center">
+                                    <input
+                                        class="inp-num"
+                                        type="number"
+                                        ng-model="n67"
+                                        value="{{ ( (n61-0) + (n63-0) - (n65-0) ) }}"
+                                        readonly
+                                    />
+                                </td>
+                                <td class="center"></td>
+                                <td>
+                                    <input
+                                    type="text"
+                                    value="إجمالي حقوق الملكية"
+                                    readonly
+                                    class="inp-txt long-1"
+                                />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input
+                                        class="inp-num"
+                                        type="number"
+                                        ng-model="n68"
+                                        value="{{ ((n60-0) + (n62-0) + (n64-0) + (n66-0)) }}"
+                                        readonly
+                                    />
+                                </td>
+                                <td class="center"></td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        value="مجموع الأصول الثابتة"
+                                        class="inp-txt long-1"
+                                        readonly
+                                    />
+                                </td>
+                                <td class="center"></td>
+                                <td class="center"></td>
+                                <td class="underline">
+                                    <input
+                                        type="text"
+                                        value="خصوم طويلة الأجل"
+                                        readonly
+                                        class="inp-txt long"
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="center"></td>
+                                <td></td>
+                                <td class="center">
+                                    <input
+                                        class="inp-num border-orange"
+                                        type="number"
+                                        ng-model="n69"
+                                    />
+                                </td>
+                                <td class="center"></td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        value="قروض طويلة الأجل"
+                                        readonly
+                                        class="inp-txt long"
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="center"></td>
+                                <td class="underline">
+                                    <input
+                                        type="text"
+                                        value="الأصول المتداولة"
+                                        class="inp-txt"
+                                        readonly
+                                    />
+                                </td>
+                                <td class="center"></td>
+                                <td class="center"></td>
+                                <td class="underline">
+                                    <input
+                                        type="text"
+                                        value="خصوم متداولة"
+                                        class="inp-txt"
+                                        readonly
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="center">
+                                    <input
+                                        class="inp-num border-orange"
+                                        type="number"
+                                        ng-model="n70"
+                                    />
+                                </td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        value="نقدية"
+                                        class="inp-txt"
+                                        readonly
+                                    />
+                                </td>
+                                <td class="center"></td>
+                                <td class="center">
+                                    <input
+                                        class="inp-num border-orange"
+                                        type="number"
+                                        ng-model="n71"
+                                    />
+                                </td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        value="موردين"
+                                        class="inp-txt"
+                                        readonly
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="center">
+                                    <input
+                                        class="inp-num border-orange"
+                                        type="number"
+                                        ng-model="n72"
+                                    />
+                                </td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        value="مخزون"
+                                        class="inp-txt"
+                                        readonly
+                                    />
+                                </td>
+                                <td class="center"></td>
+                                <td class="center">
+                                    <input
+                                        class="inp-num border-orange"
+                                        type="number"
+                                        ng-model="n73"
+                                    />
+                                </td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        value="أوراق دفع"
+                                        class="inp-txt"
+                                        readonly
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="center">
+                                    <input
+                                        class="inp-num border-orange"
+                                        type="number"
+                                        ng-model="n74"
+                                    />
+                                </td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        value="عملاء"
+                                        class="inp-txt"
+                                        readonly
+                                    />
+                                </td>
+                                <td class="center"></td>
+                                <td class="center border-bottom">
+                                    <input
+                                        class="inp-num border-orange"
+                                        type="number"
+                                        ng-model="n75"
+                                    />
+                                </td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        value="قروض قصيرة الأجل"
+                                        class="inp-txt long"
+                                        readonly
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="center">
+                                    <input
+                                        class="inp-num border-orange"
+                                        type="number"
+                                        ng-model="n76"
+                                    />
+                                </td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        value="أوراق قبض"
+                                        class="inp-txt"
+                                        readonly
+                                    />
+                                </td>
+                                <td class="center border-bottom">
+                                    <input
+                                        class="inp-num"
+                                        type="number"
+                                        ng-model="n77"
+                                        value="{{ ( (n71-0) + (n73-0) + (n75-0) ) }}"
+                                        readonly
+                                    />
+                                </td>
+                                <td class="center"></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="center border-bottom">
+                                    <input
+                                        class="inp-num border-orange"
+                                        type="number"
+                                        ng-model="n78"
+                                    />
+                                </td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        value="أوراق مالية"
+                                        class="inp-txt"
+                                        readonly
+                                    />
+                                </td>
+                                <td class="center"></td>
+                                <td class="center"></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td class="border-bottom">
+                                    <input
+                                        class="inp-num"
+                                        type="number"
+                                        ng-model="n79"
+                                        value="{{ ( (n70-0) + (n72-0) + (n74-0) + (n76-0) + (n78-0) ) }}"
+                                        readonly
+                                    />
+                                </td>
+                                <td class="center"></td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        value="مجموع الأصول المتداولة"
+                                        class="inp-txt long-1"
+                                        readonly
+                                    />
+                                </td>
+                                <td class="center"></td>
+                                <td class="center"></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input
+                                        class="inp-num"
+                                        type="number"
+                                        ng-model="n80"
+                                        value="{{ ((n60-0) + (n62-0) + (n64-0) + (n66-0)) + ( (n70-0) + (n72-0) + (n74-0) + (n76-0) + (n78-0) ) }}"
+                                        readonly
+                                    />
+                                </td>
+                                <td class="center"></td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        value="مجموع الأصول"
+                                        class="inp-txt"
+                                        readonly
+                                    />
+                                </td>
+                                <td class="center">
+                                    <input
+                                        class="inp-num"
+                                        type="number"
+                                        ng-model="n81"
+                                        value="{{ ( (n61-0) + (n63-0) - (n65-0) ) + ((n69-0)) + ( (n71-0) + (n73-0) + (n75-0) ) }}"
+                                        readonly
+                                    />
+                                </td>
+                                <td class="center"></td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        value="مجموع الخصوم وحقوق الملكية"
+                                        class="inp-txt long-b long-2"
+                                        readonly
+                                    />
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <h3>تنبية !</h3>
+                    <p>
+                        <strong
+                            >لابد من تساوي طرف إجمالي الأصول مع مجموع الخصوم
+                            وحقوق الملكية</strong
+                        >
+                    </p>
+                    <p>
+                        <strong
+                            >إجمالي الأصول أو مجموع الخصوم وحقوق الملكية الصحيح:
+                            535.000</strong
+                        >
+                    </p>
+                </div>
+                <hr />
+                <div class="term">
+                    <h3>(تمرين 2) علي قائمة قائمة المركز المالي (الميزانية)</h3>
+                    <p>
+                        <strong
+                            >فيما يلي بعض أرصدة ميزان المراجعة لمنشأة البطل في
+                            2022/12/31</strong
+                        >
+                    </p>
+                    <p>
+                        (أراضي 400000ج – مباني 40000ج - سيارات 40000ج – أثاث
+                        10000ج – نقدية 20000ج – مخزون بضاعة 30000ج – عملاء
+                        30000ج – أوراق قبض 25000 – أوراق مالية 15000ج – موردين
+                        20000ج – أوراق دفع 20000ج – قروض قصيرة الأجل 10000ج –
+                        قروض طويلة الأجل 50000ج – المسحوبات 10000ج – صافي ربح
+                        العام 20000ج – رأس المال 500000ج.)
+                    </p>
+                    <p>
+                        <strong
+                            >والمطلوب : إعداد قائمة المركز المالي في
+                            2022/12/31.</strong
+                        >
+                    </p>
+                    <p><strong class="text-center">الحل</strong></p>
+                    <table class="width exam">
+                        <tbody class="final">
+                            <tr>
+                                <td class="inp-txt td1 center border-bottom">
+                                    كلي
+                                </td>
+                                <td class="inp-txt td2 center border-bottom">
+                                    جزئي
+                                </td>
+                                <td class="inp-txt td3 center border-bottom">
+                                    بيان
+                                </td>
+                                <td class="inp-txt td4 center border-bottom">
+                                    كلي
+                                </td>
+                                <td class="inp-txt td5 center border-bottom">
+                                    جزئي
+                                </td>
+                                <td class="inp-txt td6 center border-bottom">
+                                    بيان
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="center"></td>
+                                <td class="underline">
+                                    <input
+                                        type="text"
+                                        class="inp-txt border-orange"
+                                    />
+                                </td>
+                                <td class="center"></td>
+                                <td class="center"></td>
+                                <td class="underline">
+                                    <input
+                                        type="text"
+                                        class="inp-txt border-orange"
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="center">
+                                    <input
+                                        class="inp-num border-orange"
+                                        type="number"
+                                        ng-model="n160"
+                                    />
+                                </td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        class="inp-txt border-orange"
+                                    />
+                                </td>
+                                <td class="center"></td>
+                                <td class="center">
+                                    <input
+                                        class="inp-num border-orange"
+                                        type="number"
+                                        ng-model="n161"
+                                    />
+                                </td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        class="inp-txt border-orange"
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="center">
+                                    <input
+                                        class="inp-num border-orange"
+                                        type="number"
+                                        ng-model="n162"
+                                    />
+                                </td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        class="inp-txt border-orange"
+                                    />
+                                </td>
+                                <td class="center"></td>
+                                <td class="center">
+                                    <input
+                                        class="inp-num border-orange"
+                                        type="number"
+                                        ng-model="n163"
+                                    />
+                                </td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        class="inp-txt border-orange"
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="center">
+                                    <input
+                                        class="inp-num border-orange"
+                                        type="number"
+                                        ng-model="n164"
+                                    />
+                                </td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        class="inp-txt border-orange"
+                                    />
+                                </td>
+                                <td class="center"></td>
+                                <td class="center border-bottom">
+                                    <input
+                                        class="inp-num border-orange"
+                                        type="number"
+                                        ng-model="n165"
+                                    />
+                                </td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        class="inp-txt border-orange"
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="center border-bottom">
+                                    <input
+                                        class="inp-num border-orange"
+                                        type="number"
+                                        ng-model="n166"
+                                    />
+                                </td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        class="inp-txt border-orange"
+                                    />
+                                </td>
+                                <td class="center">
+                                    <input
+                                        class="inp-num"
+                                        type="number"
+                                        ng-model="n167"
+                                        value="{{ ( (n161-0) + (n163-0) - (n165-0) ) }}"
+                                        readonly
+                                    />
+                                </td>
+                                <td class="center"></td>
+                                <td>
+                                    <input
+                                    type="text"
+                                    class="inp-txt long-1 border-orange"
+                                />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input
+                                        class="inp-num"
+                                        type="number"
+                                        ng-model="n168"
+                                        value="{{ ((n160-0) + (n162-0) + (n164-0) + (n166-0)) }}"
+                                        readonly
+                                    />
+                                </td>
+                                <td class="center"></td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        class="inp-txt long-1 border-orange"
+                                    />
+                                </td>
+                                <td class="center"></td>
+                                <td class="center"></td>
+                                <td class="underline">
+                                    <input
+                                        type="text"
+                                        class="inp-txt long border-orange"
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="center"></td>
+                                <td></td>
+                                <td class="center">
+                                    <input
+                                        class="inp-num border-orange"
+                                        type="number"
+                                        ng-model="n169"
+                                    />
+                                </td>
+                                <td class="center"></td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        class="inp-txt long border-orange"
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="center"></td>
+                                <td class="underline">
+                                    <input
+                                        type="text"
+                                        class="inp-txt border-orange"
+                                    />
+                                </td>
+                                <td class="center"></td>
+                                <td class="center"></td>
+                                <td class="underline">
+                                    <input
+                                        type="text"
+                                        class="inp-txt border-orange"
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="center">
+                                    <input
+                                        class="inp-num border-orange"
+                                        type="number"
+                                        ng-model="n170"
+                                    />
+                                </td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        class="inp-txt border-orange"
+                                    />
+                                </td>
+                                <td class="center"></td>
+                                <td class="center">
+                                    <input
+                                        class="inp-num border-orange"
+                                        type="number"
+                                        ng-model="n171"
+                                    />
+                                </td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        class="inp-txt border-orange"
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="center">
+                                    <input
+                                        class="inp-num border-orange"
+                                        type="number"
+                                        ng-model="n172"
+                                    />
+                                </td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        class="inp-txt border-orange"
+                                    />
+                                </td>
+                                <td class="center"></td>
+                                <td class="center">
+                                    <input
+                                        class="inp-num border-orange"
+                                        type="number"
+                                        ng-model="n173"
+                                    />
+                                </td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        class="inp-txt border-orange"
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="center">
+                                    <input
+                                        class="inp-num border-orange"
+                                        type="number"
+                                        ng-model="n174"
+                                    />
+                                </td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        class="inp-txt border-orange"
+                                    />
+                                </td>
+                                <td class="center"></td>
+                                <td class="center border-bottom">
+                                    <input
+                                        class="inp-num border-orange"
+                                        type="number"
+                                        ng-model="n175"
+                                    />
+                                </td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        class="inp-txt long border-orange"
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="center">
+                                    <input
+                                        class="inp-num border-orange"
+                                        type="number"
+                                        ng-model="n176"
+                                    />
+                                </td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        class="inp-txt border-orange"
+                                    />
+                                </td>
+                                <td class="center border-bottom">
+                                    <input
+                                        class="inp-num"
+                                        type="number"
+                                        ng-model="n177"
+                                        value="{{ ( (n171-0) + (n173-0) + (n175-0) ) }}"
+                                        readonly
+                                    />
+                                </td>
+                                <td class="center"></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="center border-bottom">
+                                    <input
+                                        class="inp-num border-orange"
+                                        type="number"
+                                        ng-model="n178"
+                                    />
+                                </td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        class="inp-txt border-orange"
+                                    />
+                                </td>
+                                <td class="center"></td>
+                                <td class="center"></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td class="border-bottom">
+                                    <input
+                                        class="inp-num"
+                                        type="number"
+                                        ng-model="n179"
+                                        value="{{ ( (n170-0) + (n172-0) + (n174-0) + (n176-0) + (n178-0) ) }}"
+                                        readonly
+                                    />
+                                </td>
+                                <td class="center"></td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        class="inp-txt long-1 border-orange"
+                                    />
+                                </td>
+                                <td class="center"></td>
+                                <td class="center"></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input
+                                        class="inp-num"
+                                        type="number"
+                                        ng-model="n180"
+                                        value="{{ ((n160-0) + (n162-0) + (n164-0) + (n166-0)) + ( (n170-0) + (n172-0) + (n174-0) + (n176-0) + (n178-0) ) }}"
+                                        readonly
+                                    />
+                                </td>
+                                <td class="center"></td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        value="مجموع الأصول"
+                                        class="inp-txt"
+                                        readonly
+                                    />
+                                </td>
+                                <td class="center">
+                                    <input
+                                        class="inp-num"
+                                        type="number"
+                                        ng-model="n181"
+                                        value="{{ ( (n161-0) + (n163-0) - (n165-0) ) + ((n169-0)) + ( (n171-0) + (n173-0) + (n175-0) ) }}"
+                                        readonly
+                                    />
+                                </td>
+                                <td class="center"></td>
+                                <td>
+                                    <input
+                                        type="text"
+                                        value="مجموع الخصوم وحقوق الملكية"
+                                        class="inp-txt long-b long-2"
+                                        readonly
+                                    />
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <h3>تنبية !</h3>
+                    <p>
+                        <strong
+                            >لابد من تساوي طرف إجمالي الأصول مع مجموع الخصوم
+                            وحقوق الملكية</strong
+                        >
+                    </p>
+                    <p>
+                        <strong
+                            >إجمالي الأصول أو مجموع الخصوم وحقوق الملكية الصحيح:
+                            610.000</strong
+                        >
+                    </p>
+                </div>
+                <hr />
+            </div>
+        </section>
+        <!-- End Home -->
+
+        <section class="continer">
+            <footer id="footer">
+                <div class="footer-content">
+                    <h3>محاسبة بالمعلقة</h3>
+                    <p>
+نسعى لتوفير محتوى تعليمي إلكتروني لفهم المفاهيم المحاسبية وتقديم تمارين لتطبيقها عمليًا.
+                    </p>
+                    <h3>تواصل معنا !</h3>
+                    <ul class="socials">
+                        <li>
+                            <a href="https://www.facebook.com/profile.php?id=61561495196576&mibextid=ZbWKwL"
+                                ><i class="fa-brands fa-facebook-f"></i
+                            ></a>
+                        </li>
+                        <li>
+                            <a href="https://wa.me/01091043572"
+                                ><i class="fa-brands fa-whatsapp"></i
+                            ></a>
+                        </li>
+                        <li>
+                            <a href="mailto:m7asba.balm3l2a@gmail.com"
+                                ><i class="fa-regular fa-envelope"></i
+                            ></a>
+                        </li>
+                        <li>
+                            <a href="https://t.me/+HcnybuZ_A1xhYjc0"
+                                ><i class="fa-brands fa-telegram"></i
+                            ></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-bottom">
+                    <p>
+                        تم تصميم موقع محاسبة بالمعلقة بواسطة
+                        <span>TeamStone</span>
+                    </p>
+                </div>
+            </footer>
+        </section>
+
+        <div id="theme" class="theme-btn">
+            <i class="fas fa-adjust"></i>
+        </div>
+        <script src="JS/script.js"></script>
+        <script src="Anglur/angular.min.js"></script>
+    </body>
+</html>
